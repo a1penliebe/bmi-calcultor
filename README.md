@@ -7,14 +7,16 @@
   cin>>a>>b;
   
   c=a/b/b;
-  if(c<18.5){
-              cout<<"underweight";
-                     }
+  
+                     
    if(c>=25 ){
   cout<<"overweight";
   }
-  else{
+  else if(c<25 && c>18.5){
   cout<<"normal";
+  }
+  else{
+              cout<<"underweight";
   }
   return 0;
   }
