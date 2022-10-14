@@ -14,7 +14,7 @@
   cout<<"overweight";
   }
   else{
-  cout<<"normal";
+  cout<<"healthy";
   }
   return 0;
   }
