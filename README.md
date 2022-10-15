@@ -13,7 +13,7 @@
   cout<<"overweight";
   }
   else if(c<25 && c>18.5){
-  cout<<"normal";
+  cout<<"healthy";
   }
   else{
               cout<<"underweight";
